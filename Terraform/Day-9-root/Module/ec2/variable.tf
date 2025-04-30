@@ -1,4 +1,10 @@
+variable "ami_id" {
+  description = "AMI value"
+  type = string
+  default = ""
+}
 variable "instance_type" {
-  description = "Type of EC2 instance"
-  type        = string
+    description = "Instance type"
+    type = string
+    default = ""
 }
